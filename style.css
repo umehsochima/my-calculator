@@ -7,6 +7,7 @@
 
 
 .container{
+	position:relative ;
 	width: 100%;
 	height: 100vh;
 	background: #e3f9ff;
@@ -54,4 +55,21 @@ form input.equal{
 
 form input.operator{
 	color:#FFFF00 ;
+}
+
+
+/* responsive design */
+
+@media (max-width:768px){
+	.Calaculator{
+		width: 2510px;
+	}
+}
+
+@media (max-width:480px){
+	.Calaculator{
+		width: 200px;
+	}
+.button{
+	grid-template-columns: repeat(2, 1fr);
 }
